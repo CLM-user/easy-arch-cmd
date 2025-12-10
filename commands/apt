@@ -1,1 +1,7 @@
-this script wip so idk
+#!/bin/bash
+
+#IMPORTANT VARIABLES
+pkg=$1
+
+pacman -S $pkg
+exit 0
