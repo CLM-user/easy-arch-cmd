@@ -21,5 +21,5 @@ echo "Succesfully installed!"
 sleep 1
 echo "Script will auto destruct"
 sleep 1
-( sleep 1 && rm -rf ~/easy-arch-cmd/scripts/install.sh ) &
+( sleep 1 && rm -rf "$0" ) &
 echo "ok bye"
